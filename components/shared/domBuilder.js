@@ -4,7 +4,7 @@ const domBuilder = () => {
   const domString = `
   <div id="navigation"></div>
   <div id="main-container">
-  
+    <div id="card-space"></div>
   </div>`;
 
   renderToDOM('#app', domString);
