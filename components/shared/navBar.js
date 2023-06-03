@@ -18,7 +18,7 @@ const navBar = () => {
             <li class="nav-item">
               <button id="add-card-btn" class="btn btn-danger" type="submit">Add Card</button>
             </li>
-            <div id="logout-form-container"></div>
+            <div id="logout-btn"></div>
           </div>
         </ul>
       </div>
