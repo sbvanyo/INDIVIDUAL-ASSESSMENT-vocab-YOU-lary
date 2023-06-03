@@ -1,0 +1,55 @@
+{
+  "0": {
+  "firebase_key":null,
+  "card_id":"237536b1-2025-4806-ad33-252981b83daf",
+  "title":"Sciurus vulgaris",
+  "definition":"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+  "language":"Python",
+  "time_submitted":"7:38 PM",
+  "uid":"567fd077-e384-46d7-8f06-923f923519de"
+},
+
+  "1": {
+  "firebase_key":null,"card_id":"2e43cf0b-8b10-4e35-b69f-cbf7dce84175","title":"Tamandua tetradactyla","definition":"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.","language":"SQL","time_submitted":"5:56 PM","uid":"bc992d2a-5fa5-4c8f-a83c-753aa9f2a1ad"
+},
+
+  "2": {
+    "firebase_key":null,"card_id":"19da5a46-2e14-4d47-a0a7-2bd1edadb947","title":"Diceros bicornis","definition":"In congue. Etiam justo. Etiam pretium iaculis justo.","language":"SQL","time_submitted":"7:31 PM","uid":"3808a46c-f10a-47b4-bae5-4ec3fd595d86"
+  },
+
+  "3": {
+    "firebase_key":null,"card_id":"3438dec7-2086-409b-a033-f24f863ec79a","title":"Tayassu pecari","definition":"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.","language":"Python","time_submitted":"10:25 PM","uid":"022e633f-74cd-407f-98f8-39448058315e"
+  },
+
+  "4": {
+    "firebase_key":null,"card_id":"d2e7d947-c8e4-476d-80da-ceef24ac37fa","title":"Ursus americanus","definition":"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.","language":"JavaScript","time_submitted":"12:19 PM","uid":"c5161396-293d-451d-8006-51b467ebd400"
+  },
+
+  "5": {
+    "firebase_key":null,"card_id":"477c18c7-1fff-41a8-ab48-f8f41a72e939","title":"Chlamydosaurus kingii","definition":"Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.","language":"Python","time_submitted":"3:27 AM","uid":"38a1367b-4eae-4150-a139-ca75c34b85b9"
+  },
+
+  "6": {
+    "firebase_key":null,"card_id":"59ec6a68-3bd8-441a-aeda-a4d61dc48427","title":"Cacatua tenuirostris","definition":"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.","language":"Python","time_submitted":"3:11 AM","uid":"a417b48f-b38f-4570-ab6a-3c88b22763a7"
+  },
+
+  "7": {
+    "firebase_key":null,"card_id":"4ce28646-29db-4b13-8605-5217f63a847d","title":"Melophus lathami","definition":"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.","language":"Python","time_submitted":"4:16 PM","uid":"582338a9-3dcb-4ab0-8c5e-ba78ceb93556"
+  },
+
+  "8": {
+    "firebase_key":null,"card_id":"9d1ab5cf-1386-4ffb-842a-31ff9ac4e853","title":"Spizaetus coronatus","definition":"Sed ante. Vivamus tortor. Duis mattis egestas metus.","language":"JavaScript","time_submitted":"8:51 AM","uid":"12235811-3df3-4593-9a36-71308c7fd284"
+  },
+
+  "9": {
+    "firebase_key":null,"card_id":"d1ac6ae9-cbaf-4510-9773-6fdf117ffd60","title":"Phalacrocorax varius","definition":"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.","language":"Fortran","time_submitted":"4:03 PM","uid":"3eb29d51-c20c-46c8-851a-2659de60c4ca"
+  },
+
+  "10": {
+    "firebase_key":null,"card_id":"d75f2dd3-e443-45e6-8050-ed4b755d9e23","title":"Laniaurius atrococcineus","definition":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.","language":"Python","time_submitted":"5:56 AM","uid":"ba99b146-99cd-472c-bbf1-3bc8e8c7ad84"
+  },
+
+  "11": {
+    "firebase_key":null,"card_id":"36f6e547-270a-45c2-add3-98f3182d46a0","title":"Aonyx capensis","definition":"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.","language":"SQL","time_submitted":"7:29 PM","uid":"8cf98c4e-b2db-47cd-b096-f383a43e1672"
+  }
+}

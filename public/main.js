@@ -2,6 +2,7 @@
 // import ViewDirectorBasedOnUserAuthStatus from '../utils/viewDirector';
 import 'bootstrap'; // import bootstrap elements and js
 import '../styles/main.scss';
+import ViewDirectorBasedOnUserAuthStatus from '../utils/viewDirector';
 
 const init = () => {
   document.querySelector('#app').innerHTML = `
@@ -19,7 +20,7 @@ const init = () => {
     .addEventListener('click', () => console.warn('You clicked that button!'));
 
   // USE WITH FIREBASE AUTH
-  // ViewDirectorBasedOnUserAuthStatus();
+  ViewDirectorBasedOnUserAuthStatus();
 };
 
 init();
