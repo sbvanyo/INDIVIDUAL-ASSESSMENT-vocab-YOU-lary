@@ -3,7 +3,7 @@ import client from '../utils/client';
 const endpoint = client.databaseURL;
 
 const getCardData = (uid) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/cards.json?orderBy="uid"$equalTo="${uid}"`, {
+  fetch(`${endpoint}/cards.json?orderBy="uid"&equalTo="${uid}"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -18,6 +18,7 @@ const getCardData = (uid) => new Promise((resolve, reject) => {
       }
     })
     .catch(reject);
+  console.warn(uid);
 });
 
 export default getCardData;
