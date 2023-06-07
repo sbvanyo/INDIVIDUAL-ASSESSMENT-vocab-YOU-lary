@@ -12,10 +12,10 @@ const addCardForm = (obj = {}) => {
       <div class="form-box">
         <select class="form-select" id="language-input" aria-label="Default select example" required>
           <option selected>Select a language</option>
-          <option value="fortran">Fortran</option>
-          <option value="javascript">JavaScript</option>
-          <option value="python">Python</option>
-          <option value="sql">SQL</option>
+          <option value="Fortran">Fortran</option>
+          <option value="Javascript">JavaScript</option>
+          <option value="Python">Python</option>
+          <option value="SQL">SQL</option>
         </select>
       </div>
       <div class="form-box">

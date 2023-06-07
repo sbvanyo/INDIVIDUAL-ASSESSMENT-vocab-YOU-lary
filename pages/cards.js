@@ -18,7 +18,7 @@ const showCards = (array) => {
         <h6 class="card-subtitle mb-2 text-body-secondary">Language: ${entry.language}</h6>
         <p class="card-text">${entry.definition}</p>
         <a href="#" class="card-link">Edit</a>
-        <a href="#" class="card-link">Delete</a>
+        <a id="delete-card--${entry.firebaseKey}" class="card-link">Delete</a>
       </div>
     </div>`;
   });
