@@ -19,7 +19,19 @@ const getCardData = (uid) => new Promise((resolve, reject) => {
       }
     })
     .catch(reject);
-  console.warn(uid);
+});
+
+// DELETE CARD
+const deleteCard = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/cards/${firebaseKey}.json`, {
+    method: 'DELETE',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
 });
 
 // CREATE CARD
@@ -36,7 +48,7 @@ const createCard = (payload) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-// UPDATE BOOK
+// UPDATE CARD
 const updateCard = (payload) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/cards/${payload.firebaseKey}.json`, {
     method: 'PATCH',
@@ -53,5 +65,6 @@ const updateCard = (payload) => new Promise((resolve, reject) => {
 export {
   getCardData,
   createCard,
-  updateCard
+  updateCard,
+  deleteCard
 };
