@@ -34,6 +34,18 @@ const deleteCard = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+const getSingleCard = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/cards/${firebaseKey}.json`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
+
 // CREATE CARD
 const createCard = (payload) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/cards.json`, {
@@ -66,5 +78,6 @@ export {
   getCardData,
   createCard,
   updateCard,
-  deleteCard
+  deleteCard,
+  getSingleCard
 };
