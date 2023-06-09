@@ -17,7 +17,7 @@ const startApp = (user) => {
   logoutButton();
   navigationEvents(user);
 
-  // renders cardss to DOM on app load
+  // renders cards to DOM on app load
   getCardData(user.uid).then((cards) => showCards(cards));
 };
 
