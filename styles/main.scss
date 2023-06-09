@@ -10,6 +10,17 @@ body {
   margin-top: 100px;
 }
 
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #355070;
+  padding: 20px 40px 20px 40px;
+  border-radius: 20px;
+}
+
 .title {
   font-family: 'Bagel Fat One', cursive;
   font-size: 900%;
@@ -50,6 +61,15 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.form-control {
+  margin: 10px 0 10px 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.form-select {
+  font-family: 'Raleway', sans-serif;
+}
+
 .card {
   margin: 5px;
   border-radius: 15px;
@@ -68,6 +88,18 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 0 10px 0;
+}
+
+.fas {
+  margin: 10px;
+  size: 50px;
+}
+
 #nav-logo {
   margin-left: 15px;
 }
@@ -79,15 +111,21 @@ body {
   color: whitesmoke;
 }
 
-#nav-buttons {
+#search {
+  width: fit-content;
+}
+
+#nav-items {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 #filter-btn-group {
   margin: 25px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10px;
 }
 
 #fortran-btn {
@@ -110,8 +148,43 @@ body {
   background-color: rgb(47, 47, 47);
 }
 
+#form-title {
+  font-family: 'Bagel Fat One', cursive;
+  color: whitesmoke;
+  font-size: xx-large;
+}
+
+#submit-btn {
+  background-color: #E56B6F;
+}
+
 #card-space {
   margin: 25px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+#Fortran-card {
+  background-color: #355070;
+  color: whitesmoke
+}
+
+#JavaScript-card {
+  background-color: #6D597A;
+  color: whitesmoke;
+}
+
+#Python-card {
+  background-color: #B56576;
+  color: whitesmoke;
+}
+
+#SQL-card {
+  background-color: #E56B6F;
+  color: whitesmoke;
+}
+
+#card-lang {
+  color: whitesmoke !important;
 }

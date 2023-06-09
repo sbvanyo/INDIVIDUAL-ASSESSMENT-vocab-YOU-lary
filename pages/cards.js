@@ -12,15 +12,18 @@ const showCards = (array) => {
   let domString = '';
   array.forEach((entry) => {
     domString += `
-      <div class="card" style="width: 18rem;">
+      <div class="card" id="${entry.language}-card" style="width: 18rem;">
         <div class="card-body">
-        <h5 class="card-title">${entry.title}</h5>
-        <h6 class="card-subtitle mb-2 text-body-secondary">Language: ${entry.language}</h6>
-        <p class="card-text">${entry.definition}</p>
-        <a id="update-card--${entry.firebaseKey}" class="card-link">Edit</a>
-        <a id="delete-card--${entry.firebaseKey}" class="card-link">Delete</a>
-      </div>
-    </div>`;
+          <h5 class="card-title">${entry.title}</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary" id="card-lang">Language: ${entry.language}</h6>
+          <hr>
+          <p class="card-text">${entry.definition}</p>
+          <div id="card-icons">
+            <i id="update-card--${entry.firebaseKey}" class="fas fa-solid fa-pen fa-lg"></i>
+            <i id="delete-card--${entry.firebaseKey}" class="fas fa-solid fa-trash fa-lg"></i>
+          </div>
+        </div>
+      </div>`;
   });
   renderToDOM('#card-space', domString);
 };
