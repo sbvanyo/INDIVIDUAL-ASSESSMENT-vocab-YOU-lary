@@ -1,22 +1,113 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Playfair&family=Raleway:wght@300;600&display=swap');
 
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: #EAAC8B;
+  color: #B56576;
   text-align: center;
   margin-top: 100px;
 }
 
+.title {
+  font-family: 'Bagel Fat One', cursive;
+  font-size: 900%;
+}
+
 .btn-danger {
-  width: 150px;
+  width: fit-content;
+  min-width: 160px;
   margin: 5px 10px 5px 10px;
+  background-color: #6D597A;
+  border: none;
+  border-radius: 20px;
+  padding: 15px 20px 15px 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 125%;
+}
+
+.btn-danger:hover {
+  background-color: #44384d;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  background-color: #B56576 !important;
+}
+
+.btn-primary {
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  width: 160px;
+  margin: 15px;
+  color: whitesmoke;
+  font-family: 'Raleway', sans-serif;
+}
+
+.card {
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.card-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+}
+
+.card-subtitle { 
+  font-family: 'Raleway', sans-serif;
+}
+
+.card-text {
+  font-family: 'Raleway', sans-serif;
+}
+
+#nav-logo {
+  margin-left: 15px;
+}
+
+#nav-title {
+  font-family: 'Bagel Fat One', cursive;
+  font-size: 180%;
+  margin: 15px;
+  color: whitesmoke;
 }
 
 #nav-buttons {
   display: flex;
   flex-direction: row;
+}
+
+#filter-btn-group {
+  margin: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#fortran-btn {
+  background-color: #355070;
+}
+
+#javascript-btn {
+  background-color: #6D597A;
+}
+
+#python-btn {
+  background-color: #B56576;
+}
+
+#sql-btn {
+  background-color: #E56B6F;
+}
+
+#all-btn {
+  background-color: rgb(47, 47, 47);
 }
 
 #card-space {

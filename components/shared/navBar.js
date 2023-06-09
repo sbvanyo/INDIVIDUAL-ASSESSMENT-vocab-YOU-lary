@@ -2,11 +2,11 @@ import renderToDOM from '../../utils/renderToDOM';
 
 const navBar = () => {
   const domString = `
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav id="navbar-id" class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-      <i class="fas fa-regular fa-sun fa-2x" alt="logo"></i>
-        vocab-YOU-lary
+        <i class="fas fa-regular fa-sun fa-2x" id="nav-logo" alt="logo"></i>
+        <h3 id="nav-title">vocab-YOU-lary</h3>
       </a>
     </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,7 @@ const navBar = () => {
         <ul class="navbar-nav">
           <div id="nav-buttons">
             <li class="nav-item">
-              <button id="add-card-btn" class="btn btn-danger" type="submit">Add Card</button>
+              <button id="add-card-btn" class="btn btn-danger" type="submit">add card</button>
             </li>
             <div id="logout-btn"></div>
           </div>
