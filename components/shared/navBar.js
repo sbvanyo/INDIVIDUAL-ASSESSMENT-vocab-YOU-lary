@@ -14,7 +14,10 @@ const navBar = () => {
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <div id="nav-buttons">
+          <div id="nav-items">
+            <li>
+              <input class="form-control mr-sm-2" id="search" placeholder="search entries" aria-label="Search"/>
+            </li>
             <li class="nav-item">
               <button id="add-card-btn" class="btn btn-danger" type="submit">add card</button>
             </li>

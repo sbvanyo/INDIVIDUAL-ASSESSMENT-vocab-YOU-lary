@@ -14,7 +14,7 @@ const formEvents = (user) => {
         uid: user.uid,
       };
 
-      document.querySelector('#submit-card').reset();
+      document.querySelector('form').reset();
 
       createCard(payload).then(({ name }) => {
         const patchPayload = { firebaseKey: name };
