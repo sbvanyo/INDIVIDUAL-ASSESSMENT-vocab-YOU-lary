@@ -1,4 +1,4 @@
-# vocan-YOU-lary Web App
+# vocab-YOU-lary Web App
 
 ## Link to webpage: https://staceyvanyo-vocab-you-lary.netlify.app/
 
@@ -15,6 +15,8 @@ A web app designed to assist in studying programming languages via personalized 
 Figma wireframe: https://www.figma.com/file/Mk0lMMZlfZhzhkbYCpLDko/vocab-YOU-lary-wireframe?type=design&node-id=0%3A1&t=tnvFxkUqQpum6JZa-1
 
 dbDiagram ERD: https://dbdiagram.io/d/64656429dca9fb07c44980ad
+
+Contributors: Stacey Vanyo (https://github.com/sbvanyo)
 
 <hr>
 
