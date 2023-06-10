@@ -5,7 +5,7 @@ const navBar = () => {
     <nav id="navbar-id" class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <i class="fas fa-regular fa-sun fa-2x" id="nav-logo" alt="logo"></i>
+        <i class="fas fa-solid fa-code fa-2x" id="nav-logo" alt="logo"></i>
         <h3 id="nav-title">vocab-YOU-lary</h3>
       </a>
     </div>

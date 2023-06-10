@@ -36,6 +36,8 @@ const formEvents = (user) => {
         firebaseKey,
       };
 
+      document.querySelector('form').reset();
+
       updateCard(payload).then(() => {
         getCardData(user.uid).then(showCards);
       });
