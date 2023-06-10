@@ -1,7 +1,7 @@
 ## Link to webpage: https://staceyvanyo-vocab-you-lary.netlify.app/
 
 ## Overview: 
-A web app designed to assist in studying programming languages via personalized collections of vocab cards. Users can create, read, update, delete, and filter their cards as needed.
+A web app designed to assist in studying programming languages via personalized collections of vocab cards. Users can create, read, update, delete, and filter their cards as needed. Great for college students, bootcamp attendees, the tech-curious, and learners of all stripes looking to add some structure (and a vibey aesthetic) to their learning journey.
 
 ## Screenshots:
 <img width="1215" alt="Screen Shot 2023-06-09 at 9 48 46 PM" src="https://github.com/sbvanyo/INDIVIDUAL-ASSESSMENT-vocab-YOU-lary/assets/120522998/315e7e8c-65cc-49cb-89c1-cb420b36a7a3">
