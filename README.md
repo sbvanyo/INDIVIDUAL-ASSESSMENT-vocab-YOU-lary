@@ -2,13 +2,15 @@
 
 ## Link to webpage: https://staceyvanyo-vocab-you-lary.netlify.app/
 
-## Overview: 
-A web app designed to assist in studying programming languages via personalized collections of vocab cards. Users can create, read, update, delete, and filter their cards as needed. Great for college students, bootcamp attendees, the tech-curious, and learners of all stripes looking to add some structure (and a vibey aesthetic) to their learning journey.
+## Overview + Features: 
+A web app designed to assist in studying programming languages via personalized collections of vocab cards. Users can create, read, update, delete, search, and filter their cards as needed. Great for college students, bootcamp attendees, the tech-curious, and learners of all stripes looking to add some structure (and a vibey aesthetic) to their learning journey.
 
 ## Screenshots:
-<img width="1215" alt="Screen Shot 2023-06-09 at 9 48 46 PM" src="https://github.com/sbvanyo/INDIVIDUAL-ASSESSMENT-vocab-YOU-lary/assets/120522998/315e7e8c-65cc-49cb-89c1-cb420b36a7a3">
-<br>
-<img width="1526" alt="Screen Shot 2023-06-09 at 9 43 35 PM" src="https://github.com/sbvanyo/INDIVIDUAL-ASSESSMENT-vocab-YOU-lary/assets/120522998/3323a959-f939-42a9-9e3f-0ac30ce93a66">
+<img width="1335" alt="Screen Shot 2023-06-10 at 12 39 39 PM" src="https://github.com/sbvanyo/INDIVIDUAL-ASSESSMENT-vocab-YOU-lary/assets/120522998/d15f9947-5733-4b03-8176-3e705f18127b">
+
+<img width="1324" alt="Screen Shot 2023-06-10 at 12 33 15 PM" src="https://github.com/sbvanyo/INDIVIDUAL-ASSESSMENT-vocab-YOU-lary/assets/120522998/384d3f8e-ceb5-4cd9-9571-5c16d73e936f">
+
+<img width="1340" alt="Screen Shot 2023-06-10 at 12 31 13 PM" src="https://github.com/sbvanyo/INDIVIDUAL-ASSESSMENT-vocab-YOU-lary/assets/120522998/ee3784f5-e9ab-4602-8ba7-e299e1fcffba">
 
 ## Loom walkthrough: https://www.loom.com/share/21b3a67b1a48400fa13bf31972474dcd
 
