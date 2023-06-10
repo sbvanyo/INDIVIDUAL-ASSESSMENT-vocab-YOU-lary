@@ -2,4 +2,8 @@ const clearDOM = () => {
   document.querySelector('#card-space').innerHTML = '';
 };
 
-export default clearDOM;
+const clearTitle = () => {
+  document.querySelector('#main-title').innerHTML = '';
+};
+
+export { clearDOM, clearTitle };
