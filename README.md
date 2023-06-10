@@ -12,7 +12,7 @@ A web app designed to assist in studying programming languages via personalized 
 
 <img width="1340" alt="Screen Shot 2023-06-10 at 12 31 13 PM" src="https://github.com/sbvanyo/INDIVIDUAL-ASSESSMENT-vocab-YOU-lary/assets/120522998/ee3784f5-e9ab-4602-8ba7-e299e1fcffba">
 
-## Loom walkthrough: https://www.loom.com/share/21b3a67b1a48400fa13bf31972474dcd
+## Loom walkthrough: [https://www.loom.com/share/21b3a67b1a48400fa13bf31972474dcd](https://www.loom.com/share/5e1f3f075a8f492382b6eddbe12cc1c6)
 
 Figma wireframe: https://www.figma.com/file/Mk0lMMZlfZhzhkbYCpLDko/vocab-YOU-lary-wireframe?type=design&node-id=0%3A1&t=tnvFxkUqQpum6JZa-1
 
