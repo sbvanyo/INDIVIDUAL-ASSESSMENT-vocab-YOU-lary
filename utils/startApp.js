@@ -7,8 +7,10 @@ import formEvents from '../events/formEvents';
 import navigationEvents from '../events/navigationEvents';
 import { showCards } from '../pages/cards';
 import filterButtons from '../components/shared/filterButtons';
+import { clearTitle } from './clearDOM';
 
 const startApp = (user) => {
+  clearTitle();
   domBuilder(user);
   domEvents(user);
   formEvents(user);

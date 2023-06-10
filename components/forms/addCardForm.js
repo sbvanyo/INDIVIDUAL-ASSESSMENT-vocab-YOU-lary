@@ -1,4 +1,4 @@
-import clearDOM from '../../utils/clearDOM';
+import { clearDOM } from '../../utils/clearDOM';
 import renderToDOM from '../../utils/renderToDOM';
 
 const addCardForm = (obj = {}) => {
